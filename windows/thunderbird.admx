@@ -15,6 +15,9 @@
     <category displayName="$(string.thunderbird)" name="thunderbird">
       <parentCategory ref="Mozilla:Cat_Mozilla"/>
     </category>
+    <category displayName="$(string.Certificates_group)" name="Certificates">
+      <parentCategory ref="firefox"/>
+    </category>
   </categories>
   <policies>
     <policy name="BlockAboutAddons" class="Both" displayName="$(string.BlockAboutAddons)" explainText="$(string.BlockAboutAddons_Explain)" key="Software\Policies\Mozilla\Thunderbird" valueName="BlockAboutAddons">
@@ -28,6 +31,50 @@
       </disabledValue>
     </policy>
     <policy name="BlockAboutConfig" class="Both" displayName="$(string.BlockAboutConfig)" explainText="$(string.BlockAboutConfig_Explain)" key="Software\Policies\Mozilla\Thunderbird" valueName="BlockAboutConfig">
+      <parentCategory ref="thunderbird"/>
+      <supportedOn ref="SUPPORTED_TB68"/>
+      <enabledValue>
+        <decimal value="1"/>
+      </enabledValue>
+      <disabledValue>
+        <decimal value="0"/>
+      </disabledValue>
+    </policy>
+    <policy name="AppUpdateURL" class="Both" displayName="$(string.AppUpdateURL)" explainText="$(string.AppUpdateURL_Explain)" key="Software\Policies\Mozilla\Thunderbird" presentation="$(presentation.AppUpdateURL)" >
+      <parentCategory ref="thunderbird" />
+      <supportedOn ref="SUPPORTED_TB68" />
+      <elements >
+        <text id="AppUpdateURL" valueName="AppUpdateURL" required="true" />
+      </elements>
+    </policy>
+    <policy name="BlockAboutProfiles" class="Both" displayName="$(string.BlockAboutProfiles)" explainText="$(string.BlockAboutProfiles_Explain)" key="Software\Policies\Mozilla\Thunderbird" valueName="BlockAboutProfiles">
+      <parentCategory ref="thunderbird"/>
+      <supportedOn ref="SUPPORTED_TB68"/>
+      <enabledValue>
+        <decimal value="1"/>
+      </enabledValue>
+      <disabledValue>
+        <decimal value="0"/>
+      </disabledValue>
+    </policy>
+    <policy name="Certificates_ImportEnterpriseRoots" class="Both" displayName="$(string.Certificates_ImportEnterpriseRoots)" explainText="$(string.Certificates_ImportEnterpriseRoots_Explain)" key="Software\Policies\Mozilla\Thunderbird\Certificates" valueName="ImportEnterpriseRoots">
+      <parentCategory ref="Certificates"/>
+      <supportedOn ref="SUPPORTED_TB68"/>
+      <enabledValue>
+        <decimal value="1"/>
+      </enabledValue>
+      <disabledValue>
+        <decimal value="0"/>
+      </disabledValue>
+    </policy>
+    <policy name="Certificates_Install" class="Both" displayName="$(string.Certificates_Install)" explainText="$(string.Certificates_Install_Explain)" key="Software\Policies\Thunderbird\Certificates" presentation="$(presentation.Certificates_Install)" >
+      <parentCategory ref="Certificates" />
+      <supportedOn ref="SUPPORTED_TB68" />
+      <elements >
+        <list id="Certificates_Install" key="Software\Policies\Mozilla\Thunderbird\Certificates\Install" valuePrefix="" expandable="true"/>
+      </elements>
+    </policy>
+    <policy name="DisableAppUpdate" class="Both" displayName="$(string.DisableAppUpdate)" explainText="$(string.DisableAppUpdate_Explain)" key="Software\Policies\Mozilla\Thunderbird" valueName="DisableAppUpdate">
       <parentCategory ref="thunderbird"/>
       <supportedOn ref="SUPPORTED_TB68"/>
       <enabledValue>
