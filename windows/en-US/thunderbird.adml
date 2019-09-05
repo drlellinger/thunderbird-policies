@@ -5,7 +5,7 @@
   <resources >
     <stringTable >
       <string id="SUPPORTED_WINXPSP2">Microsoft Windows XP SP2 or later</string>
-      <string id="SUPPORTED_FF68">Firefox 68 or later, Firefox 68 ESR or later</string>
+      <string id="SUPPORTED_TB68">Thunderbird 68 or later</string>
       <string id="thunderbird">Thunderbird</string>
       <string id="Addons_group">Addons</string>
       <string id="BlockAboutAddons">Block Add-ons Manager</string>
