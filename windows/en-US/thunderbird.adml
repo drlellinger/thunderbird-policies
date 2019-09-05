@@ -136,6 +136,9 @@ If this policy is disabled or not configured, the default network settings are u
         <checkBox refId="AutoLogin">Do not prompt for authentication if password is saved.</checkBox>
         <checkBox refId="UseProxyForDNS">Proxy DNS when using SOCKS v5.</checkBox>
       </presentation>
+      <presentation id="Certificates_Install">
+        <listBox refId="Certificates_Install"/>
+      </presentation>
     </presentationTable>
   </resources>
 </policyDefinitionResources>
