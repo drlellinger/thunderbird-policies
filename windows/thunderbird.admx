@@ -17,7 +17,7 @@
     </category>
   </categories>
   <policies>
-    <policy name="BlockAboutAddons" class="Both" displayName="$(string.BlockAboutAddons)" explainText="$(string.BlockAboutAddons_Explain)" key="Software\Policies\Mozilla\Firefox" valueName="BlockAboutAddons">
+    <policy name="BlockAboutAddons" class="Both" displayName="$(string.BlockAboutAddons)" explainText="$(string.BlockAboutAddons_Explain)" key="Software\Policies\Mozilla\Thunderbird" valueName="BlockAboutAddons">
       <parentCategory ref="thunderbird"/>
       <supportedOn ref="SUPPORTED_TB68"/>
       <enabledValue>
@@ -27,7 +27,7 @@
         <decimal value="0"/>
       </disabledValue>
     </policy>
-    <policy name="BlockAboutConfig" class="Both" displayName="$(string.BlockAboutConfig)" explainText="$(string.BlockAboutConfig_Explain)" key="Software\Policies\Mozilla\Firefox" valueName="BlockAboutConfig">
+    <policy name="BlockAboutConfig" class="Both" displayName="$(string.BlockAboutConfig)" explainText="$(string.BlockAboutConfig_Explain)" key="Software\Policies\Mozilla\Thunderbird" valueName="BlockAboutConfig">
       <parentCategory ref="thunderbird"/>
       <supportedOn ref="SUPPORTED_TB68"/>
       <enabledValue>
