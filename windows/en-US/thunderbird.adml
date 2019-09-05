@@ -8,6 +8,7 @@
       <string id="SUPPORTED_TB68">Thunderbird 68 or later</string>
       <string id="thunderbird">Thunderbird</string>
       <string id="Addons_group">Addons</string>
+      <string id="Certificates_group">Certificates</string>
       <string id="BlockAboutAddons">Block Add-ons Manager</string>
       <string id="BlockAboutAddons_Explain" >If this policy is enabled, the user cannot access the Add-ons Manager or about:addons.
 
@@ -16,6 +17,33 @@ If this policy is disabled or not configured, the user can access the Add-ons Ma
       <string id="BlockAboutConfig_Explain">If this policy is enabled, the user cannot access about:config.
 
 If this policy is disabled or not configured, the user can access about:config.</string>
+      <string id="BlockAboutProfiles">Block about:profiles</string>
+      <string id="BlockAboutProfiles_Explain">If this policy is enabled, the user cannot access about:profiles.
+
+If this policy is disabled or not configured, the user can access about:profiles.</string>
+      <string id="AppUpdateURL">Custom Update URL</string>
+      <string id="AppUpdateURL_Explain">If this policy is enabled, you can set a URL to an update server other than the default. This could be helpful if you run your own update server on your network.
+
+If this policy is disabled or not configured, the default update URL is used.</string>
+      <string id="Certificates_ImportEnterpriseRoots">Import Enterprise Roots</string>
+      <string id="Certificates_ImportEnterpriseRoots_Explain">If this policy is enabled, Thunderbird will read certificates from the Windows certificate store.
+
+If this policy is disabled or not configured, Thunderbird will not read certificates from the Windows certificate store.</string>
+      <string id="Certificates_Install">Install Certificates</string>
+      <string id="Certificates_Install_Explain">If this policy is enabled, Thunderbird will install the listed certificates into Thunderbird. It will look in %USERPROFILE%\AppData\Local\Thunderbird\Certificates and %USERPROFILE%\AppData\Roaming\Thunderbird\Certificates.
+
+If this policy is disabled or not configured, Thunderbird will not install additional certificates.</string>
+      <string id="DisableAppUpdate">Disable Update</string>
+      <string id="DisableAppUpdate_Explain">If this policy is enabled, the browser does not receive updates.
+
+If this policy is disabled or not configured, the browser receives updates.</string>
     </stringTable>
+    <presentationTable>
+      <presentation id="AppUpdateURL">
+        <textBox refId="AppUpdateURL">
+          <label>URL:</label>
+        </textBox>
+      </presentation>
+    </presentationTable>
   </resources>
 </policyDefinitionResources>
