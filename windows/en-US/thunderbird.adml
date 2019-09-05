@@ -142,6 +142,9 @@ If this policy is disabled or not configured, the default network settings are u
       <presentation id="Extensions">
         <listBox refId="Extensions"/>
       </presentation>
+      <presentation id="ExtensionSettings">
+        <multiTextBox refId="ExtensionSettings"/>
+      </presentation>
     </presentationTable>
   </resources>
 </policyDefinitionResources>
