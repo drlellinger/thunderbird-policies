@@ -139,6 +139,9 @@ If this policy is disabled or not configured, the default network settings are u
       <presentation id="Certificates_Install">
         <listBox refId="Certificates_Install"/>
       </presentation>
+      <presentation id="Extensions">
+        <listBox refId="Extensions"/>
+      </presentation>
     </presentationTable>
   </resources>
 </policyDefinitionResources>
