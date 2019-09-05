@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<policyDefinitions revision="1.0" schemaVersion="1.0">
+  <policyNamespaces>
+    <target prefix="thunderbird" namespace="Mozilla.Policies.Thunderbird"/>
+    <using prefix="Mozilla" namespace="Mozilla.Policies"/>
+  </policyNamespaces>
+  <resources minRequiredRevision="1.0"/>
+  <supportedOn>
+    <definitions>
+      <definition name="SUPPORTED_WINXPSP2" displayName="$(string.SUPPORTED_WINXPSP2)"/>
+      <definition name="SUPPORTED_TB68" displayName="$(string.SUPPORTED_TB68)"/>
+    </definitions>
+  </supportedOn>
+  <categories>
+    <category displayName="$(string.thunderbird)" name="thunderbird">
+      <parentCategory ref="Mozilla:Cat_Mozilla"/>
+    </category>
+    <category displayName="$(string.Addons_group)" name="Addons">
+      <parentCategory ref="thunderbird"/>
+    </category>
+    <category displayName="$(string.Preferences_group)" name="Preferences">
+      <parentCategory ref="thunderbird"/>
+    </category>
+  </categories>
+  <policies>
+    <policy name="BlockAboutAddons" class="Both" displayName="$(string.BlockAboutAddons)" explainText="$(string.BlockAboutAddons_Explain)" key="Software\Policies\Mozilla\Firefox" valueName="BlockAboutAddons">
+      <parentCategory ref="thunderbird"/>
+      <supportedOn ref="SUPPORTED_TB68"/>
+      <enabledValue>
+        <decimal value="1"/>
+      </enabledValue>
+      <disabledValue>
+        <decimal value="0"/>
+      </disabledValue>
+    </policy>
+    <policy name="BlockAboutConfig" class="Both" displayName="$(string.BlockAboutConfig)" explainText="$(string.BlockAboutConfig_Explain)" key="Software\Policies\Mozilla\Firefox" valueName="BlockAboutConfig">
+      <parentCategory ref="thunderbird"/>
+      <supportedOn ref="SUPPORTED_TB68"/>
+      <enabledValue>
+        <decimal value="1"/>
+      </enabledValue>
+      <disabledValue>
+        <decimal value="0"/>
+      </disabledValue>
+    </policy>
+    <policy name="BlockAboutProfiles" class="Both" displayName="$(string.BlockAboutProfiles)" explainText="$(string.BlockAboutProfiles_Explain)" key="Software\Policies\Mozilla\Firefox" valueName="BlockAboutProfiles">
+      <parentCategory ref="thunderbird"/>
+      <supportedOn ref="SUPPORTED_TB68"/>
+      <enabledValue>
+        <decimal value="1"/>
+      </enabledValue>
+      <disabledValue>
+        <decimal value="0"/>
+      </disabledValue>
+    </policy>
+  </policies>
+</policyDefinitions>
