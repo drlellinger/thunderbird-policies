@@ -15,12 +15,6 @@
     <category displayName="$(string.thunderbird)" name="thunderbird">
       <parentCategory ref="Mozilla:Cat_Mozilla"/>
     </category>
-    <category displayName="$(string.Addons_group)" name="Addons">
-      <parentCategory ref="thunderbird"/>
-    </category>
-    <category displayName="$(string.Preferences_group)" name="Preferences">
-      <parentCategory ref="thunderbird"/>
-    </category>
   </categories>
   <policies>
     <policy name="BlockAboutAddons" class="Both" displayName="$(string.BlockAboutAddons)" explainText="$(string.BlockAboutAddons_Explain)" key="Software\Policies\Mozilla\Firefox" valueName="BlockAboutAddons">
