@@ -17,7 +17,7 @@ Policies can be specified using the Group Policy templates on Windows (https://g
 | **[`DisableDeveloperTools`](#disabledevelopertools)** | Remove access to all developer tools.
 | **[`DisableMasterPasswordCreation`](#disablemasterpasswordcreation)** | Remove the master password functionality.
 | **[`Extensions`](#extensions)** | Control the installation, uninstallation and locking of extensions.
-| **ExtensionSettingsextensionsettings** | Manage all aspects of extensions.
+| **`ExtensionSettings`** | Manage all aspects of extensions.
 | **[`ExtensionUpdate`](#extensionupdate)** | Control extension updates.
 
 ### AppUpdateURL
