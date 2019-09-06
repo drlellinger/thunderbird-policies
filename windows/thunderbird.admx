@@ -132,21 +132,21 @@
       <parentCategory ref="Extensions"/>
       <supportedOn ref="SUPPORTED_TB68"/>
       <elements>
-        <list id="Extensions" key="Software\Policies\Mozilla\Firefox\Extensions\Install" valuePrefix="" expandable="true"/>
+        <list id="Extensions" key="Software\Policies\Mozilla\Thunderbird\Extensions\Install" valuePrefix="" expandable="true"/>
       </elements>
     </policy>
     <policy name="Extensions_Uninstall" class="Both" displayName="$(string.Extensions_Uninstall)"  key="Software\Policies\Mozilla\Thunderbird\Extensions\Uninstall" explainText="$(string.Extensions_Uninstall_Explain)" presentation="$(presentation.Extensions)">
       <parentCategory ref="Extensions"/>
       <supportedOn ref="SUPPORTED_TB68"/>
       <elements>
-        <list id="Extensions" key="Software\Policies\Mozilla\Firefox\Extensions\Uninstall" valuePrefix=""/>
+        <list id="Extensions" key="Software\Policies\Mozilla\Thunderbird\Extensions\Uninstall" valuePrefix=""/>
       </elements>
     </policy>
     <policy name="Extensions_Locked" class="Both" displayName="$(string.Extensions_Locked)"  key="Software\Policies\Mozilla\Thunderbird\Extensions\Locked" explainText="$(string.Extensions_Locked_Explain)" presentation="$(presentation.Extensions)">
       <parentCategory ref="Extensions"/>
       <supportedOn ref="SUPPORTED_TB68"/>
       <elements>
-        <list id="Extensions" key="Software\Policies\Mozilla\Firefox\Extensions\Locked" valuePrefix=""/>
+        <list id="Extensions" key="Software\Policies\Mozilla\Thunderbird\Extensions\Locked" valuePrefix=""/>
       </elements>
     </policy>
     <policy name="ExtensionSettings" class="Both" displayName="$(string.ExtensionSettings)"  key="Software\Policies\Mozilla\Thunderbird" explainText="$(string.ExtensionSettings_Explain)"  presentation="$(presentation.ExtensionSettings)">">
@@ -166,11 +166,11 @@
         <decimal value="0"/>
       </disabledValue>
     </policy>
-    <policy name="Proxy" class="Both" displayName="$(string.Proxy)" explainText="$(string.Proxy_Explain)" key="Software\Policies\Mozilla\Firefox\Proxy" presentation="$(presentation.Proxy)" >
+    <policy name="Proxy" class="Both" displayName="$(string.Proxy)" explainText="$(string.Proxy_Explain)" key="Software\Policies\Mozilla\Thunderbird\Proxy" presentation="$(presentation.Proxy)" >
       <parentCategory ref="firefox" />
       <supportedOn ref="SUPPORTED_FF60" />
       <elements >
-        <boolean id="ProxyLocked" key="Software\Policies\Mozilla\Firefox\Proxy" valueName="Locked">
+        <boolean id="ProxyLocked" key="Software\Policies\Mozilla\Thunderbird\Proxy" valueName="Locked">
           <trueValue>
             <decimal value="1"/>
           </trueValue>
@@ -206,7 +206,7 @@
           </item>
         </enum>
         <text id="HTTPProxy" valueName="HTTPProxy"/>
-        <boolean id="UseHTTPProxyForAllProtocols" key="Software\Policies\Mozilla\Firefox\Proxy" valueName="UseHTTPProxyForAllProtocols">
+        <boolean id="UseHTTPProxyForAllProtocols" key="Software\Policies\Mozilla\Thunderbird\Proxy" valueName="UseHTTPProxyForAllProtocols">
           <trueValue>
             <decimal value="1"/>
           </trueValue>
@@ -231,7 +231,7 @@
         </enum>
         <text id="AutoConfigURL" valueName="AutoConfigURL"/>
         <text id="Passthrough" valueName="Passthrough"/>
-        <boolean id="AutoLogin" key="Software\Policies\Mozilla\Firefox\Proxy" valueName="AutoLogin">
+        <boolean id="AutoLogin" key="Software\Policies\Mozilla\Thunderbird\Proxy" valueName="AutoLogin">
           <trueValue>
             <decimal value="1"/>
           </trueValue>
@@ -239,7 +239,7 @@
             <decimal value="0"/>
           </falseValue>
         </boolean>
-        <boolean id="UseProxyForDNS" key="Software\Policies\Mozilla\Firefox\Proxy" valueName="UseProxyForDNS">
+        <boolean id="UseProxyForDNS" key="Software\Policies\Mozilla\Thunderbird\Proxy" valueName="UseProxyForDNS">
           <trueValue>
             <decimal value="1"/>
           </trueValue>
