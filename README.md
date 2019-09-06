@@ -17,7 +17,7 @@ Policies can be specified using the Group Policy templates on Windows (https://g
 | **[`DisableDeveloperTools`](#disabledevelopertools)** | Remove access to all developer tools.
 | **[`DisableMasterPasswordCreation`](#disablemasterpasswordcreation)** | Remove the master password functionality.
 | **[`Extensions`](#extensions)** | Control the installation, uninstallation and locking of extensions.
-| **[`ExtensionSettings`](#extensionsettings)** | Manage all aspects of extensions.
+| **ExtensionSettingsextensionsettings** | Manage all aspects of extensions.
 | **[`ExtensionUpdate`](#extensionupdate)** | Control extension updates.
 
 ### AppUpdateURL
@@ -140,4 +140,15 @@ Control the installation, uninstallation and locking of extensions.
 Software\Policies\Mozilla\Thunderbird\Extensions\Install\1 = "//path/to/xpi"
 Software\Policies\Mozilla\Thunderbird\Extensions\Uninstall\1 = "bad_addon_id@mozilla.org"
 Software\Policies\Mozilla\Thunderbird\Extensions\Locked\1 = "addon_id@mozilla.org"
+```
+### ExtensionUpdate
+Control extension updates.
+
+**Compatibility:** Thunderbird 68\
+**CCK2 Equivalent:** N/A\
+**Preferences Affected:** `extensions.update.enabled`
+
+#### Windows
+```
+Software\Policies\Mozilla\Thunderbird\ExtensionUpdate = 0x1 | 0x0
 ```
