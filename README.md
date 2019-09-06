@@ -120,7 +120,7 @@ Remove the master password functionality.
 
 #### Windows
 ```
-Software\Policies\Thunderbird\Firefox\DisableMasterPasswordCreation = 0x1 | 0x0
+Software\Policies\Thunderbird\Thunderbird\DisableMasterPasswordCreation = 0x1 | 0x0
 ```
 ### Extensions
 Control the installation, uninstallation and locking of extensions.
