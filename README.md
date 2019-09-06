@@ -2,7 +2,7 @@
 
 **You should use the officially released versions (https://github.com/drlellinger/thunderbird-policies/releases) if you are deploying changes.**
 
-Policies can be specified using the Group Policy templates on Windows (https://github.com/mozilla/policy-templates/tree/master/windows)
+Policies can be specified using the Group Policy templates on Windows (https://github.com/drlellinger/thunderbird-policies/tree/master/windows)
 
 | Policy Name | Description
 | --- | --- |
