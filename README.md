@@ -70,7 +70,7 @@ Software\Policies\Mozilla\Thunderbird\BlockAboutProfiles = 0x1 | 0x0
 ```
 ### Certificates | Install
 
-Install certificates into the Firefox certificate store. If only a filename is specified, Thunderbird searches for the file in the following locations:
+Install certificates into the Thunderbird certificate store. If only a filename is specified, Thunderbird searches for the file in the following locations:
 
 - Windows
   - %USERPROFILE%\AppData\Local\Thunderbird\Certificates
