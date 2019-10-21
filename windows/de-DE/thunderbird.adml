@@ -26,26 +26,26 @@ Wenn diese Gruppenrichtlinieneinstellung deaktiviert oder nicht konfiguriert ist
       <string id="AppUpdateURL_Explain">Wenn diese Gruppenrichtlinieneinstellung aktiviert ist, wird eine vorgegebene URL als Update-Server anstelle des standardmäßigen Update-Servers festgelegt. Dies ist hilfreich, wenn man seinen eigenen Updateserver im Firmennetzwerk einsetzt.
 
 Wenn diese Gruppenrichtlinieneinstellung deaktiviert oder nicht konfiguriert ist, verwendet Thunderbird die standardmäßige Update-URL.</string>
-      <string id="Certificates_ImportEnterpriseRoots">Enterprise Root Zertifikate importieren</string>
+      <string id="Certificates_ImportEnterpriseRoots">Enterprise Root-Zertifikate importieren</string>
       <string id="Certificates_ImportEnterpriseRoots_Explain">Wenn diese Gruppenrichtlinieneinstellung aktiviert ist, wird Thunderbird Zertifikate vom Windows-eigenen Zertifikatsspeicher importieren.
 
 Wenn diese Gruppenrichtlinieneinstellung deaktiviert oder nicht konfiguriert ist, wird Thunderbird keine Zertifikate vom Windows-eigenen Zertifikatsspeicher importieren.</string>
-      <string id="Certificates_Install">Install Certificates</string>
-      <string id="Certificates_Install_Explain">If this policy is enabled, Thunderbird will install the listed certificates into Thunderbird. It will look in %USERPROFILE%\AppData\Local\Thunderbird\Certificates and %USERPROFILE%\AppData\Roaming\Thunderbird\Certificates.
+      <string id="Certificates_Install">Zertifikate installieren</string>
+      <string id="Certificates_Install_Explain">Wenn diese Gruppenrichtlinieneinstellung aktiviert ist, wird Thunderbird die aufgelisteten Zertifikate installieren. Die Zertifikate müssen sich in %USERPROFILE%\AppData\Local\Thunderbird\Certificates und %USERPROFILE%\AppData\Roaming\Thunderbird\Certificates befinden.
 
-If this policy is disabled or not configured, Thunderbird will not install additional certificates.</string>
-      <string id="DisableAppUpdate">Disable Update</string>
-      <string id="DisableAppUpdate_Explain">If this policy is enabled, Thunderbird does not receive updates.
+Wenn diese Gruppenrichtlinieneinstellung deaktiviert oder nicht konfiguriert ist, wird Thunderbird keine Zertifikate installieren.</string>
+      <string id="DisableAppUpdate">Updates deaktvieren</string>
+      <string id="DisableAppUpdate_Explain">Wenn diese Gruppenrichtlinieneinstellung aktiviert ist, wird Thunderbird keine Updates installieren.
 
-If this policy is disabled or not configured, Thunderbird receives updates.</string>
-      <string id="DisableDeveloperTools">Disable Developer Tools</string>
-      <string id="DisableDeveloperTools_Explain">If this policy is enabled, developer tools are not available within Thunderbird.
+Wenn diese Gruppenrichtlinieneinstellung deaktiviert oder nicht konfiguriert ist, wird Thunderbird Updates erhalten.</string>
+      <string id="DisableDeveloperTools">Developer Tools deaktivieren</string>
+      <string id="DisableDeveloperTools_Explain">Wenn diese Gruppenrichtlinieneinstellung aktiviert ist, sind Developer Tools in Thunderbird deaktiviert.
 
-If this policy is disabled or not configured, developer tools are available within Thunderbird.</string>
-      <string id="DisableMasterPasswordCreation">Disable Master Password Creation</string>
-      <string id="DisableMasterPasswordCreation_Explain">If this policy is enabled, users cannot create a master password.
+Wenn diese Gruppenrichtlinieneinstellung deaktiviert oder nicht konfiguriert ist, sind Developer Tools in Thunderbird weiterhin vorhanden.</string>
+      <string id="DisableMasterPasswordCreation">Masterpasswort Erstellung deaktivieren</string>
+      <string id="DisableMasterPasswordCreation_Explain">Wenn diese Gruppenrichtlinieneinstellung aktiviert ist, sind Nutzer nicht in der Lage Masterpasswörter einzurichten.
 
-If this policy is disabled or not configured, users can create a master password.</string>
+Wenn diese Gruppenrichtlinieneinstellung deaktiviert oder nicht konfiguriert ist, können Nutzer nach wie vor Masterpasswörter einrichten.</string>
       <string id="DisableSecurityBypass_InvalidCertificate">Prevent overriding certificate errors</string>
       <string id="DisableSecurityBypass_InvalidCertificate_Explain">If this policy is enabled, the &quot;Add Exception&quot; button is not available when a certificate is invalid. This prevents the user from overriding the certificate error.
 
