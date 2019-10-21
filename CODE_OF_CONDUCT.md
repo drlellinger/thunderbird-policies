@@ -26,6 +26,7 @@ Examples of unacceptable behavior by participants include:
  advances
 * Trolling, insulting/derogatory comments, and personal or political attacks
 * Public or private harassment
+* Republishing the content of this repository without the maintainers' consent
 * Publishing others' private information, such as a physical or electronic
  address, without explicit permission
 * Other conduct which could reasonably be considered inappropriate in a
