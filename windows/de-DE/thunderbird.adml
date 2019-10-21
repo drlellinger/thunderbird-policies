@@ -11,7 +11,7 @@
       <string id="Addons_group">Addons</string>
       <string id="Certificates_group">Zertifikate</string>
       <string id="BlockAboutAddons">Add-ons Manager blockieren</string>
-      <string id="BlockAboutAddons_Explain" >Wenn diese Gruppenrichtlinieneinstellung aktiviert ist, kann der Nutzer nicht auf den Add-ons Manager oder about:addons zugreifen.
+      <string id="BlockAboutAddons_Explain">Wenn diese Gruppenrichtlinieneinstellung aktiviert ist, kann der Nutzer nicht auf den Add-ons Manager oder about:addons zugreifen.
 
 Wenn diese Gruppenrichtlinieneinstellung deaktiviert oder nicht konfiguriert ist, kann der Nutzer auf den Add-ons Manager oder about:addons zugreifen.</string>
       <string id="BlockAboutConfig">about:config blockieren</string>
@@ -84,16 +84,16 @@ Select the connection type and then fill in the appropriate sections. Due to a b
 If this policy is disabled or not configured, the default network settings are used and user can change them.</string>
       <string id="SOCKSVersion4">SOCKS v4</string>
       <string id="SOCKSVersion5">SOCKS v5</string>
-      <string id="AutoConfigURL">Automatic proxy configuration URL</string>
-      <string id="AutoConfigURL_Explain">These should only be set if you selected autoConfig</string>
+      <string id="AutoConfigURL">Automatische Proxy Konfigurations-URL</string>
+      <string id="AutoConfigURL_Explain">Diese Richtlinieneinstellung sollte nur gewählt werden, wenn autoConfig aktiviert ist.</string>
       <string id="Passthrough">Proxy bypass URLs</string>
       <string id="Passthrough_Explain">These should only be set if you selected manual proxy</string>
-      <string id="Connection">Connection Type</string>
-      <string id="NoProxy">No Proxy</string>
-      <string id="SystemProxy">Use system proxy settings</string>
-      <string id="ManualProxy">Manual proxy configuration</string>
-      <string id="AutoDetectProxy">Auto-detect proxy settings</string>
-      <string id="AutoConfigProxy">Automatic proxy configuration</string>
+      <string id="Connection">Verbindungsart</string>
+      <string id="NoProxy">Kein Proxy</string>
+      <string id="SystemProxy">System Proxy verwenden</string>
+      <string id="ManualProxy">Manuelle Proxy Konfiguration</string>
+      <string id="AutoDetectProxy">Automatisch Proxy erkennen</string>
+      <string id="AutoConfigProxy">Automatisch Proxy-Einstellungen setzen</string>
     </stringTable>
     <presentationTable>
       <presentation id="AppUpdateURL">
@@ -102,14 +102,14 @@ If this policy is disabled or not configured, the default network settings are u
         </textBox>
       </presentation>
       <presentation id="Proxy">
-        <checkBox refId="ProxyLocked">Don't allow proxy settings to be changed.</checkBox>
-        <text>Connection Type:</text>
+        <checkBox refId="ProxyLocked">Änderungen an den Proxy-Einstellungen verbieten.</checkBox>
+        <text>Verbindungsart:</text>
         <dropdownList refId="ConnectionType"/>
         <text>HTTP Proxy:</text>
         <textBox refId="HTTPProxy">
           <label/>
         </textBox>
-        <checkBox refId="UseHTTPProxyForAllProtocols">Use this proxy server for all protocols.</checkBox>
+        <checkBox refId="UseHTTPProxyForAllProtocols">Diesen Proxy für alle Protokolle verwenden.</checkBox>
         <text>SSL Proxy:</text>
         <textBox refId="SSLProxy">
           <label/>
@@ -124,17 +124,17 @@ If this policy is disabled or not configured, the default network settings are u
         </textBox>
         <text>SOCKS Version:</text>
         <dropdownList refId="SOCKSVersion"/>
-        <text>No proxy for</text>
+        <text>Kein Proxy für:</text>
         <textBox refId="Passthrough">
           <label/>
         </textBox>
-        <text>Example: .mozilla.org, .net.nz, 192.168.1.0/24</text>
-        <text>Automatic proxy configuration URL:</text>
+        <text>Beispiele: .mozilla.org, .net.nz, 192.168.1.0/24</text>
+        <text>Automatische Proxy Konfigurations-URL:</text>
         <textBox refId="AutoConfigURL">
           <label/>
         </textBox>
-        <checkBox refId="AutoLogin">Do not prompt for authentication if password is saved.</checkBox>
-        <checkBox refId="UseProxyForDNS">Proxy DNS when using SOCKS v5.</checkBox>
+        <checkBox refId="AutoLogin">Keine Authentifizierungsanfrage bei gespeichertem Passwort.</checkBox>
+        <checkBox refId="UseProxyForDNS">Bei Verwendung von SOCKS v5 den Proxy für DNS-Anfragen verwenden.</checkBox>
       </presentation>
       <presentation id="Certificates_Install">
         <listBox refId="Certificates_Install"/>
