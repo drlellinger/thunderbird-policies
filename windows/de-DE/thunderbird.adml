@@ -46,10 +46,10 @@ Wenn diese Gruppenrichtlinieneinstellung deaktiviert oder nicht konfiguriert ist
       <string id="DisableMasterPasswordCreation_Explain">Wenn diese Gruppenrichtlinieneinstellung aktiviert ist, sind Nutzer nicht in der Lage Masterpasswörter einzurichten.
 
 Wenn diese Gruppenrichtlinieneinstellung deaktiviert oder nicht konfiguriert ist, können Nutzer nach wie vor Masterpasswörter einrichten.</string>
-      <string id="DisableSecurityBypass_InvalidCertificate">Prevent overriding certificate errors</string>
-      <string id="DisableSecurityBypass_InvalidCertificate_Explain">If this policy is enabled, the &quot;Add Exception&quot; button is not available when a certificate is invalid. This prevents the user from overriding the certificate error.
+      <string id="DisableSecurityBypass_InvalidCertificate">Nutzer abhalten, Zertifikatsfehler zu ignorieren</string>
+      <string id="DisableSecurityBypass_InvalidCertificate_Explain">Wenn diese Gruppenrichtlinieneinstellung aktiviert ist, können Nutzer die Schaltfläche &quot;Ausnahme hinzufügen...&quot; nicht verwenden.
 
-If this policy is disabled or not configured, certificate errors can be overridden.</string>
+Wenn diese Gruppenrichtlinieneinstellung deaktiviert oder nicht konfiguriert ist, können Ausnahmen bei auftretenden Zertifikatsfehlern hinzugefügt werden.</string>
       <string id="DisableSecurityBypass_SafeBrowsing">Prevent overriding safe browsing errors</string>
       <string id="DisableSecurityBypass_SafeBrowsing_Explain">If this policy is enabled, a user cannot bypass the warning and visit a harmful site.
 
