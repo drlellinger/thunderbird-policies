@@ -88,7 +88,7 @@ Se questo criterio è disabilitato o non configurato, saranno utilizzate le impo
       <string id="AutoConfigURL_Explain">Queste opzioni devono essere impostate solo se è stata selezionata la configurazione automatica</string>
       <string id="Passthrough">Nessun proxy per</string>
       <string id="Passthrough_Explain">Queste opzioni devono essere impostate solo se è stata selezionata la configurazione manuale dei proxy</string>
-      <string id="Connection">Tipo connessione<</string>
+      <string id="Connection">Tipo connessione</string>
       <string id="NoProxy">Nessun proxy</string>
       <string id="SystemProxy">Utilizza le impostazioni proxy del sistemas</string>
       <string id="ManualProxy">Configurazione manuale dei proxy</string>
