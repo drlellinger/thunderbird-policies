@@ -8,7 +8,7 @@ assignees: ''
 ---
 
 **Describe the bug**
-A clear and concise description of what the bug is.
+A clear and concise description of what the bug is. Remember: only bug fixing requests in scope of the policy templates. For policy engine requests please open a bug on https://bugzilla.mozilla.org/enter_bug.cgi#h=dupes%7CThunderbird
 
 **To Reproduce**
 Steps to reproduce the behavior:
