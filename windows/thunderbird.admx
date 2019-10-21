@@ -4,7 +4,7 @@
     <target prefix="thunderbird" namespace="Mozilla.Policies.Thunderbird"/>
     <using prefix="Mozilla" namespace="Mozilla.Policies"/>
   </policyNamespaces>
-  <resources minRequiredRevision="1.0"/>
+  <resources minRequiredRevision="1.0" />
   <supportedOn>
     <definitions>
       <definition name="SUPPORTED_WINXPSP2" displayName="$(string.SUPPORTED_WINXPSP2)"/>
