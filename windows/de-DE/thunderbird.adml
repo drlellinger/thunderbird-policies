@@ -50,38 +50,38 @@ Wenn diese Gruppenrichtlinieneinstellung deaktiviert oder nicht konfiguriert ist
       <string id="DisableSecurityBypass_InvalidCertificate_Explain">Wenn diese Gruppenrichtlinieneinstellung aktiviert ist, können Nutzer die Schaltfläche &quot;Ausnahme hinzufügen...&quot; nicht verwenden.
 
 Wenn diese Gruppenrichtlinieneinstellung deaktiviert oder nicht konfiguriert ist, können Ausnahmen bei auftretenden Zertifikatsfehlern hinzugefügt werden.</string>
-      <string id="DisableSecurityBypass_SafeBrowsing">Prevent overriding safe browsing errors</string>
-      <string id="DisableSecurityBypass_SafeBrowsing_Explain">If this policy is enabled, a user cannot bypass the warning and visit a harmful site.
+      <string id="DisableSecurityBypass_SafeBrowsing">Betrugsversuch- und Schadprogrammschutz ändern</string>
+      <string id="DisableSecurityBypass_SafeBrowsing_Explain">Wenn Sie die Richtlinieneinstellung aktivieren, können Benutzer Warnungen zu Betrugsversuch- und Schadprogrammschutz nicht umgehen um eine schädliche Webseite zu besuchen.
 
-If this policy is disabled or not configured, a user can choose to visit a harmful site.</string>
-      <string id="Extensions_Install">Extensions to Install</string>
-      <string id="Extensions_Install_Explain">If this policy is enabled, you can specify a list of extension URLs or paths that will be installed when Thunderbird is started.
-Anytime this list is changed, the extensions will be reinstalled.
+Wenn Sie die Richtlinieneinstellung deaktivieren oder nicht konfigurieren, können Benutzer Warnungen zu Betrugsversuch- und Schadprogrammschutz umgehen um eine schädliche Webseite zu besuchen.</string>
+      <string id="Extensions_Install">Erweiterungen installieren</string>
+      <string id="Extensions_Install_Explain">Wenn Sie die Richtlinieneinstellung aktivieren, können Sie eine Liste mit Erweiterungs-URLs oder -pfaden angeben, die beim Start von Firefox installiert werden.
+Jedes Mal, wenn diese Liste geändert wird, werden die Erweiterungen erneut installiert.
 
-If this policy is disabled or not configured, no extensions are installed.</string>
-      <string id="Extensions_Uninstall">Extensions to Uninstall</string>
-      <string id="Extensions_Uninstall_Explain">If this policy is enabled, you can specify a list of extension IDs that will be uninstalled.
-Anytime this list is changed, the extensions will be uninstalled.
+Wenn Sie die Richtlinieneinstellung deaktivieren oder nicht konfigurieren, werden keine Erweiterungen installiert.</string>
+      <string id="Extensions_Uninstall">Erweiterungen deinstallieren</string>
+      <string id="Extensions_Uninstall_Explain">Wenn Sie die Richtlinieneinstellung aktivieren, können Sie eine Liste mit Erweiterungs-IDs angeben, die beim Start deinstalliert werden.
+Jedes Mal, wenn diese Liste geändert wird, werden die Erweiterungen deinstalliert.
 
-If this policy is disabled or not configured, no extensions are uninstalled.</string>
-      <string id="Extensions_Locked">Prevent extensions from being disabled or removed</string>
-      <string id="Extensions_Locked_Explain">If this policy is enabled, you can specify a list of extension IDs that the user will be unable to uninstall or disable.
+Wenn Sie die Richtlinieneinstellung deaktivieren oder nicht konfigurieren, werden keine Erweiterungen deinstalliert.</string>
+      <string id="Extensions_Locked">Verhindern, dass Erweiterungen deaktiviert oder gelöscht werden</string>
+      <string id="Extensions_Locked_Explain">Wenn Sie die Richtlinieneinstellung aktivieren, können Sie eine Liste mit Erweiterungs-IDs angeben, die den Benutzer hindert die angegebenen Erweiterungen zu deinstallieren oder zu deaktivieren.
 
-If this policy is disabled or not configured, no extensions are locked</string>
+Wenn Sie die Richtlinieneinstellung deaktivieren oder nicht konfigurieren, werden keine Erweiterungen gesperrt.</string>
       <string id="ExtensionUpdate">Extension Update</string>
-      <string id="ExtensionUpdate_Explain">If this policy is disabled, extensions will not be updated automatically.
+      <string id="ExtensionUpdate_Explain">Wenn Sie die Richtlinieneinstellung deaktivieren, werden Add-ons nicht automatisch aktualisiert.
 
-If this policy is enabled or not configured, extensions will be updated automatically.</string>
+Wenn Sie die Richtlinieneinstellung aktivieren oder nicht konfigurieren, werden Add-ons automatisch aktualisiert.</string>
       <string id="ExtensionSettings">Extension Management</string>
       <string id="ExtensionSettings_Explain">If this policy is enabled, you can use JSON to describe the extension management policy.
 
 If this policy is disabled or not configured, extensions will not be managed.</string>
       <string id="Proxy">Proxy Settings</string>
-      <string id="Proxy_Explain">If this policy is enabled, you can configure and lock network settings.
+      <string id="Proxy_Explain">Wenn Sie die Richtlinieneinstellung aktivieren, können Sie die Netzwerkeinstellungen ändern und sperren.
 
-Select the connection type and then fill in the appropriate sections. Due to a bug, you must select a value for the SOCKS proxy version.
+Wählen Sie den Verbindungstyp und füllen Sie die entsprechenden Abschnitte aus. Aufgrund eines Fehlers müssen Sie einen Wert für die SOCKS-Proxy-Version auswählen.
 
-If this policy is disabled or not configured, the default network settings are used and user can change them.</string>
+Wenn Sie die Richtlinieneinstellung deaktivieren oder nicht konfigurieren, werden die Standard Netzwerk-Einstellungen verwenden. Diese können vom Benutzer verändert werden.</string>
       <string id="SOCKSVersion4">SOCKS v4</string>
       <string id="SOCKSVersion5">SOCKS v5</string>
       <string id="AutoConfigURL">Automatische Proxy Konfigurations-URL</string>
