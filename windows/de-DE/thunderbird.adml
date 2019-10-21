@@ -14,22 +14,22 @@
       <string id="BlockAboutAddons_Explain" >Wenn diese Gruppenrichtlinieneinstellung aktiviert ist, kann der Nutzer nicht auf den Add-ons Manager oder about:addons zugreifen.
 
 Wenn diese Gruppenrichtlinieneinstellung deaktiviert oder nicht konfiguriert ist, kann der Nutzer auf den Add-ons Manager oder about:addons zugreifen.</string>
-      <string id="BlockAboutConfig">about:configblockieren</string>
+      <string id="BlockAboutConfig">about:config blockieren</string>
       <string id="BlockAboutConfig_Explain">Wenn diese Gruppenrichtlinieneinstellung aktiviert ist, kann der Nutzer nicht auf about:config zugreifen.
 
 Wenn diese Gruppenrichtlinieneinstellung deaktiviert oder nicht konfiguriert ist, kann der Nutzer auf about:config zugreifen.</string>
-      <string id="BlockAboutProfiles">Block about:profiles</string>
-      <string id="BlockAboutProfiles_Explain">If this policy is enabled, the user cannot access about:profiles.
+      <string id="BlockAboutProfiles">about:profiles blockieren</string>
+      <string id="BlockAboutProfiles_Explain">Wenn diese Gruppenrichtlinieneinstellung aktiviert ist, kann der Nutzer nicht auf about:profiles zugreifen.
 
-If this policy is disabled or not configured, the user can access about:profiles.</string>
-      <string id="AppUpdateURL">Custom Update URL</string>
-      <string id="AppUpdateURL_Explain">If this policy is enabled, you can set a URL to an update server other than the default. This could be helpful if you run your own update server on your network.
+Wenn diese Gruppenrichtlinieneinstellung deaktiviert oder nicht konfiguriert ist, kann der Nutzer auf about:profiles zugreifen.</string>
+      <string id="AppUpdateURL">Vorgegebene Update-URL</string>
+      <string id="AppUpdateURL_Explain">Wenn diese Gruppenrichtlinieneinstellung aktiviert ist, wird eine vorgegebene URL als Update-Server anstelle des standardmäßigen Update-Servers festgelegt. Dies ist hilfreich, wenn man seinen eigenen Updateserver im Firmennetzwerk einsetzt.
 
-If this policy is disabled or not configured, the default update URL is used.</string>
-      <string id="Certificates_ImportEnterpriseRoots">Import Enterprise Roots</string>
-      <string id="Certificates_ImportEnterpriseRoots_Explain">If this policy is enabled, Thunderbird will read certificates from the Windows certificate store.
+Wenn diese Gruppenrichtlinieneinstellung deaktiviert oder nicht konfiguriert ist, verwendet Thunderbird die standardmäßige Update-URL.</string>
+      <string id="Certificates_ImportEnterpriseRoots">Enterprise Root Zertifikate importieren</string>
+      <string id="Certificates_ImportEnterpriseRoots_Explain">Wenn diese Gruppenrichtlinieneinstellung aktiviert ist, wird Thunderbird Zertifikate vom Windows-eigenen Zertifikatsspeicher importieren.
 
-If this policy is disabled or not configured, Thunderbird will not read certificates from the Windows certificate store.</string>
+Wenn diese Gruppenrichtlinieneinstellung deaktiviert oder nicht konfiguriert ist, wird Thunderbird keine Zertifikate vom Windows-eigenen Zertifikatsspeicher importieren.</string>
       <string id="Certificates_Install">Install Certificates</string>
       <string id="Certificates_Install_Explain">If this policy is enabled, Thunderbird will install the listed certificates into Thunderbird. It will look in %USERPROFILE%\AppData\Local\Thunderbird\Certificates and %USERPROFILE%\AppData\Roaming\Thunderbird\Certificates.
 
