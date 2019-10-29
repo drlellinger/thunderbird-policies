@@ -13,4 +13,4 @@ currently being supported with security updates.
 
 ## Reporting a Vulnerability
 
-To report an issue, open a bug issue.
+To report an issue, open a [bug issue](https://github.com/drlellinger/thunderbird-policies/issues/new?assignees=&labels=security&template=bug_report.md&title=).
