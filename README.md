@@ -9,7 +9,7 @@ Policies can be specified using the Group Policy templates on Windows (https://g
 | **[`AppUpdateURL`](#AppUpdateURL)** | Change the URL for application update.
 | **[`BlockAboutAddons`](#blockaboutaddons)** | Block access to the Add-ons Manager (about:addons).
 | **[`BlockAboutConfig`](#blockaboutconfig)** | Block access to about:config. (Bug fixed with TB 68.1.1)
-| **[`BlockAboutProfiles`](#blockaboutprofiles)** | Block access to About Profiles (about:profiles).
+| **[`BlockAboutProfiles`](#blockaboutprofiles)** | Block access to about:profiles.
 | **[`Certificates`](#certificates)** |
 | **[`Certificates -> ImportEnterpriseRoots`](#certificates--importenterpriseroots)** | Trust certificates that have been added to the operating system certificate store by a user or administrator.
 | **[`Certificates -> Install`](#certificates--install)** | Install certificates into the Thunderbird certificate store.
