@@ -43,7 +43,7 @@
         <decimal value="0"/>
       </disabledValue>
     </policy>
-    <policy name="AppUpdateURL" class="Both" displayName="$(string.AppUpdateURL)" explainText="$(string.AppUpdateURL_Explain)" key="Software\Policies\Mozilla\Thunderbird" presentation="$(presentation.AppUpdateURL)" >
+    <policy name="AppUpdateURL" class="Machine" displayName="$(string.AppUpdateURL)" explainText="$(string.AppUpdateURL_Explain)" key="Software\Policies\Mozilla\Thunderbird" presentation="$(presentation.AppUpdateURL)" >
       <parentCategory ref="thunderbird" />
       <supportedOn ref="SUPPORTED_TB68" />
       <elements >
