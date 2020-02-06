@@ -167,8 +167,8 @@
       </disabledValue>
     </policy>
     <policy name="Proxy" class="Both" displayName="$(string.Proxy)" explainText="$(string.Proxy_Explain)" key="Software\Policies\Mozilla\Thunderbird\Proxy" presentation="$(presentation.Proxy)" >
-      <parentCategory ref="firefox" />
-      <supportedOn ref="SUPPORTED_FF60" />
+      <parentCategory ref="thunderbird" />
+      <supportedOn ref="SUPPORTED_TB68" />
       <elements >
         <boolean id="ProxyLocked" key="Software\Policies\Mozilla\Thunderbird\Proxy" valueName="Locked">
           <trueValue>
